@@ -49,6 +49,11 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Container(
+              height: 200,
+              width: 200,
+              color: Colors.red,
+            ),
             const Text(
               'You have pushed the button this many times:',
             ),
